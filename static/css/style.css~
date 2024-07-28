@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+h1 { 
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.left {
+  float:left;
+}
+
+#main-left {
+    max-width: 60%;
+}
+
+.right{
+  float:right;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+footer {
+  clear:both;
+}
+
+.leader {
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+}
+.site-title {
+  font-family: 'Helvetica';
+  color: black;
+}
+
+.site-image {
+  width: 20%;
+}
+
+main {
+  margin-top: 1.5%;
+}
+
+nav ul li, nav ul li a {
+  list-style-type: none;
+  color: black;
+  text-align: right;
+}
+
+.site-description {
+    text-align: right;
+}
+
+.site-title {
+    text-alight: right;
+}
+
+a {
+    color: inherit;
+    text-decoration-color: #a3a3a3
+}
+
+a:hover {
+    color: black;
+    text-decoration-color:black;
+}
+
+
+.research {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6%;
+}
+
+
+
+.research-image {
+  width: 200px;
+  transition: 0.1s;
+  box-shadow: 3px 3px 4px grey;
+}
+
+.research-image:hover {
+  box-shadow: 5px 5px 4px grey;
+}
+
+.research-caption {
+  margin-top: 3%;
+  padding-left: 3%;
+  
+}
+
+.research-caption * {
+  font-size: 0.8rem;
+}
+

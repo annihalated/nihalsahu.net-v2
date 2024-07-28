@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.icon {
+
+  margin-right: 10px;
+  width: 30px; /* Adjust to your icon's actual size */
+  height: 30px; /* Adjust to your icon's actual size */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-dh {
+    background: url('/media/dh.png');
+
+}
+
+.icon-toi {
+    background: url('/media/toi.png');
+	
+}
+
+.icon-hindu {
+    background: url('/media/hindu.png');
+}
+
+
+.icon-substack {
+    background: url('/media/substack.png');
+}
+
+.icon-github {
+    background: url('/media/github.png');
+}
+    
+
+
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+h1 { 
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration-color: #a3a3a3
+}
+a:hover {
+    color: black;
+    text-decoration-color:black;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-family: Helvetica;
+    margin-bottom: 0.4rem;
+
+}
+
+.site-description {
+    margin-top: 0;
+    line-height: 1;
+}
+header {
+    display: flex;
+}
+
+.intro {
+    max-width: 70%;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.sidebar * {
+    text-align: right;
+}
+
+
+.leader {
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+}
+
+img.site-image {
+    width: 25%;
+}
+
+section#research {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Set to 4 columns maximum */
+    gap: 5px;
+
+}
+
+.research-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.1s;
+    box-shadow: 3px 3px 4px grey;
+}
+
+.research-image:hover {
+  box-shadow: 5px 5px 4px grey;
+}
+
+article.research-item {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.research-caption {
+    font-size: 0.8rem;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+.research-caption a {
+    font-size: 0.8rem;
+}
+
+section#media {
+    display: flex;
+    max-width: 70%;
+    column-count: 2; /* Number of columns */
+    column-gap: 40px; /* Gap between columns */
+    column-rule: 1px solid #000; /* Vertical line between columns */
+    flex-direction: column;
+}
+      
+
+.media-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.media-title {
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.media-description, .media-attribution {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+    text-indent: 0;
+}
+
+.media-attribution {
+    font-style: italic;
+}
+
+div.twocol {
+    display: flex;
+    gap: 50px;
+}
+
+.latex sub, .latex sup {
+    text-transform: uppercase;
+}
+
+.latex sub {
+    vertical-align: -0.5ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+    font-size: 1em;
+}
+
+.latex sup {
+    font-size: 0.85em;
+    vertical-align: 0.15em;
+    margin-left: -0.36em;
+    margin-right: -0.15em;
+}
