@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/patience"
+  from = "patience"
   to = "https://nihalsahu.substack.com/p/patience"
   status = 301
   force = false
@@ -7,7 +7,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/amis"
+  from = "amis"
   to = "https://nihalsahu.substack.com/p/amis"
   status = 301
   force = false
@@ -15,7 +15,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/against-lawyer-brain"
+  from = "against-lawyer-brain"
   to = "https://nihalsahu.substack.com/p/against-lawyer-brain"
   status = 301
   force = false
@@ -23,7 +23,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/rks"
+  from = "rks"
   to = "https://nihalsahu.substack.com/p/rks"
   status = 301
   force = false
@@ -31,7 +31,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/your-writing-is-not-good-enough"
+  from = "your-writing-is-not-good-enough"
   to = "https://nihalsahu.substack.com/p/your-writing-is-not-good-enough"
   status = 301
   force = false
@@ -39,7 +39,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/religious-freedom"
+  from = "religious-freedom"
   to = "https://nihalsahu.substack.com/p/religious freedom"
   status = 301
   force = false
@@ -47,7 +47,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/umesh"
+  from = "umesh"
   to = "https://nihalsahu.substack.com/p/umesh freedom"
   status = 301
   force = false
@@ -55,7 +55,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/chief-justice"
+  from = "chief-justice"
   to = "https://nihalsahu.substack.com/p/chief-justice freedom"
   status = 301
   force = false
@@ -63,7 +63,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/extremely-basic-productivity-advice/"
+  from = "extremely-basic-productivity-advice/"
   to = "https://nihalsahu.substack.com/p/extremely-basic-productivity-advice"
   status = 301
   force = false
@@ -71,7 +71,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/the-levine-question"
+  from = "the-levine-question"
   to = "https://nihalsahu.substack.com/p/the-levine-question"
   status = 301
   force = false
@@ -79,7 +79,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/tipping-the-odds"
+  from = "tipping-the-odds"
   to = "https://nihalsahu.substack.com/p/tipping-the-odds"
   status = 301
   force = false
@@ -87,7 +87,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/regina"
+  from = "regina"
   to = "https://nihalsahu.substack.com/p/regina"
   status = 301
   force = false
@@ -95,7 +95,7 @@
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
 [[redirects]]
-  from = "/government-health-spending"
+  from = "government-health-spending"
   to = "https://nihalsahu.substack.com/p/government-health-spending"
   status = 301
   force = false
