@@ -7,16 +7,9 @@ rssLimit = 20
 staticDir = "static"
 canonifyURLs = true
 
-[taxonomies]
-  category = 'categories'
-  tag = 'tags'
-  
-[author]
-	name = "Judah"
-	email = "judah@joodaloop.com"
-
 [params]
-  description = "A better starting point for building Hugo sites."
+	author.name = "Nihal Sahu"
+	author.email = "iamnihalsahu@gmail.com"
 
 [markup.goldmark.renderer]
     unsafe = "true"

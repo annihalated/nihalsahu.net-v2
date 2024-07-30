@@ -1,30 +1,13 @@
-<title> {{ .Site.Title }} </title>
-<meta name="description" content="{{ if .Description }}{{ .Description }}
-{{ else }} {{ .Site.Params.description }}{{ end }}">
+<title>{{ .Site.Title }}</title>
 <meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="apple-touch-icon" sizes="180x180"  href="/favicon.ico"> 
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico"> 
-<link rel="icon" type="image/png" sizes="16x16"  href="/favicon.ico"> 
+<meta name="description" content="We are not interested in Valhalla">
+<meta name="author" content="{{ .Site.Params.author }}">
 
-<!-- Facebook Open Graph tags -->
-<meta property="og:url" content="{{ .Site.BaseURL}}" />
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}
-{{ else }} {{ .Site.Params.description }}{{ end }}" />
-<meta property="og:image" content="{{ .Site.BaseURL}}/card.jpg" />
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
 
-
-<!-- Twitter Card (large image card) tags -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:creator" content="@{{.Site.Author.twitter}}">
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}
-{{ else }} {{ .Site.Params.description }}{{ end }}" />
-<meta name="twitter:image" content="{{ .Site.BaseURL}}/card.jpg" />
-
-<link rel="alternate" type="application/rss+xml" 
-  title="RSS Feed for {{ .Site.Title }}." 
-  href="/index.xml" />
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
