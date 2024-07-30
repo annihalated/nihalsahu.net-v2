@@ -200,6 +200,26 @@ div.twocol {
     gap: 50px;
 }
 
+@media only screen and (max-width: 800px) {
+    section#research {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .twocol {
+        flex-direction: column;
+        gap: 20px;
+
+    }   
+
+    .container {
+        margin-left: 3%;
+    }
+    section#media, section#repositories {
+        width: 100%;
+
+        max-width: 100%;
+    }
+}
+
 .latex sub,
 .latex sup {
     text-transform: uppercase;
