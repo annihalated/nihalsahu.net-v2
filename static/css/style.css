@@ -247,10 +247,7 @@ div.twocol {
         margin-top: 5%;
         max-width: 100%;
     }
-    .personal-intro {
-        text-align: justify;
-        text-justify: inter-character;
-    }
+
     .leader {
         font-size: 1.2rem;
     }
