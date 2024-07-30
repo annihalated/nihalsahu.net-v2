@@ -78,8 +78,8 @@ a:hover {
 
 }
 
-.site-description {
-    margin-top: 0;
+.site-description p {
+    margin: 0;
     line-height: 1;
 }
 
@@ -107,6 +107,7 @@ nav ul li {
 .leader {
     margin-top: 0.3rem;
     font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 img.site-image {
@@ -204,9 +205,9 @@ div.twocol {
     section#research {
         grid-template-columns: repeat(2, 1fr);
     }
-    .twocol {
+    div.twocol {
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
 
     }   
 
@@ -215,10 +216,48 @@ div.twocol {
     }
     section#media, section#repositories {
         width: 100%;
-
         max-width: 100%;
     }
+
+    header {
+        flex-direction: column-reverse;
+    }
+
+    div.sidebar * {
+        text-align: left;
+    }
+
+    .site-description {
+        display: none;
+    }
+
+    nav ul, nav ul li {
+        padding: 0;
+        display: inline;
+    }
+    nav {
+        padding-bottom: 3%;
+        border-bottom: 1px solid grey;
+    }
+    .site-image {
+        display: none;
+    }
+
+    .intro { 
+        margin-top: 5%;
+        max-width: 100%;
+    }
+    .personal-intro {
+        text-align: justify;
+        text-justify: inter-character;
+    }
+    .leader {
+        font-size: 1.2rem;
+    }
+
+
 }
+
 
 .latex sub,
 .latex sup {
