@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900');
+@font-face {
+    font-family: "Crimson Pro";
+    src: url("/fonts/CrimsonPro-VariableFont_wght.ttf");
+    font-weight: 100 1000;
+}
+
+
+@font-face {
+    font-family: "Crimson Pro";
+    src: url("/fonts/CrimsonPro-Italic-VariableFont_wght.ttf");
+    font-weight: 100 1000;
+    font-style: italic;
+}
 
 .icon {
     margin-right: 10px;
@@ -33,7 +45,6 @@
 }
 
 
-
 * {
     box-sizing: border-box;
     font-size: 18px;
@@ -46,14 +57,6 @@
 
 h1 {
     font-size: 1.7rem;
-}
-
-h2 {
-    font-size: 1.4rem;
-}
-
-h3 {
-    font-size: 1.2rem;
 }
 
 a {
@@ -200,6 +203,29 @@ div.twocol {
     gap: 50px;
 }
 
+.latex sub,
+.latex sup {
+    text-transform: uppercase;
+}
+
+.latex sub {
+    vertical-align: -0.5ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+}
+
+.latex,
+.latex sub {
+    font-size: 1em;
+}
+
+.latex sup {
+    font-size: 0.85em;
+    vertical-align: 0.15em;
+    margin-left: -0.36em;
+    margin-right: -0.15em;
+}
+
 @media only screen and (max-width: 800px) {
     section#research {
         grid-template-columns: repeat(2, 1fr);
@@ -250,30 +276,4 @@ div.twocol {
     .leader {
         font-size: 1.2rem;
     }
-
-
-}
-
-
-.latex sub,
-.latex sup {
-    text-transform: uppercase;
-}
-
-.latex sub {
-    vertical-align: -0.5ex;
-    margin-left: -0.1667em;
-    margin-right: -0.125em;
-}
-
-.latex,
-.latex sub {
-    font-size: 1em;
-}
-
-.latex sup {
-    font-size: 0.85em;
-    vertical-align: 0.15em;
-    margin-left: -0.36em;
-    margin-right: -0.15em;
 }
